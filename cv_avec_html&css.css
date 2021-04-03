@@ -1,0 +1,168 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html{
+	height: 100%;
+}
+
+
+body{
+height: 100%;
+background-image: linear-gradient(90deg ,#feffdf,#ffefe0 50% ,#fed9ca ,#c5c5c5,#7d7d7d );
+
+}	
+
+/*for the header*/
+
+#header_cv{
+height: 100px;
+
+}
+
+#title{
+	float: left;
+	border:solid 0px #794c74;
+	border-radius: 180px 180px 180px 180px;
+	padding: 10px;
+    background-color: #e2bcb7;
+    box-shadow: 6px 6px 6px #7d7d7d;
+}
+nav{
+	float: right;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+nav ul li{
+	display: inline-block;
+	border:solid #e2bcb7;
+	border-radius: 0px 45px 45px 45px;
+	color: white;
+	background-color: #e2bcb7;
+	box-shadow: 2px 5px 6px #7d7d7d;
+}
+
+nav a{
+	display: block;
+	text-decoration: none;
+	font-family: cursive;
+	font-weight: bold;
+	font-size: 13pt;
+	color: black;
+}
+
+nav a:hover{
+	color: white;
+	background-color: black;
+}
+
+
+#my_contact{
+}
+
+#name{
+	text-align: center;
+	color:#b68973 ;
+	text-shadow: 7px 7px 7px #e580b5;
+}
+
+
+p{
+ color: #222831;
+ font-size: 20px;
+ padding: 50px;
+ word-wrap: break-word;
+font-family:cursive;
+}
+
+h2{
+	background-color: #b68973;
+	color: #fff3e2;
+	font-family: cursive;
+}
+
+#my_contact img{
+  float: right;
+  width: 100px;
+  height: 100px;
+  margin-top: 0px;
+}
+
+p a{
+ text-decoration: none;
+ color: #045762;
+}
+
+p a:hover{
+	color: #7b113a;
+}
+
+#skills_cv{
+ color: #222831;
+ font-size: 20px;
+ padding: 50px;
+ word-wrap: break-word;
+font-family:cursive;
+text-decoration: blink;
+}
+
+#skills_cv ul{
+	list-style-type: square;
+}
+
+
+#experience_cv{
+color: #222831;
+ font-size: 20px;
+ padding: 50px;
+font-family:cursive;
+ word-wrap: break-word;
+text-decoration: blink;
+
+}
+
+table tr td{
+	padding: 20px;
+}
+
+
+#programming_languages_cv{
+	color: #222831;
+ font-size: 20px;
+ padding: 50px;
+ word-wrap: break-word;
+font-family:cursive;
+text-decoration: blink;
+}
+
+#programming_languages_cv ul{
+	list-style-type: circle;
+}
+
+
+form{
+	color: #222831;
+ font-size: 20px;
+ padding: 50px;
+font-family:cursive;
+text-decoration: blink;
+padding: 20px;
+}
+#send{
+	padding: 10px;
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color:#b68973;
+	color: #fff3e2;
+	font-family: cursive;
+	box-shadow: 6px 6px 6px #7d7d7d;
+	font-size: 20px;
+}
+
+#send:hover{
+	color: black;
+	font-size: 25px;
+	background-color: red;
+}
