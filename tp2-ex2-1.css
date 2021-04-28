@@ -1,0 +1,144 @@
+.container{
+   display: grid;
+   height: 100vh;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   grid-template-rows: 1.2fr 1fr 2fr 2.2fr 1.2fr;
+   grid-template-areas: "nav nav nav nav"
+                         "box1 box1 box1 box1"
+                         "box2 box3 box4 box5"
+                         "box6 box6 box7 box7"
+                         "footer footer footer footer";
+   grid-row-gap: 0.4rem;
+   grid-column-gap: 0.9em;
+
+}
+
+.nav{
+        background-color: steelblue;
+        grid-area: nav;
+	   	padding: 1rem;
+	   	border: 3px solid hsl(180,50%,20%);
+	   	border-radius: 4px;
+	   	color:#fff;
+	   	text-align: center;
+	   	color: white;
+}
+
+.box1{
+        background-color: darkkhaki;
+        grid-area:box1;
+	   	padding: 1rem;
+	   	border: 3px solid hsl(180,50%,20%);
+	   	border-radius: 4px;
+	   	color:#fff;
+	   	text-align: center;
+	   	color: white;
+}
+.box2{
+        background-color: powderblue;
+        grid-area:box2;
+	   	padding: 1rem;
+	   	border: 3px solid hsl(180,50%,20%);
+	   	border-radius: 4px;
+	   	color:#fff;
+	   	text-align: center;
+	   	color: white;
+}
+.box3{
+        background-color: palevioletred;
+        grid-area:box3;
+	   	padding: 1rem;
+	   	border: 3px solid hsl(180,50%,20%);
+	   	border-radius: 4px;
+	   	color:#fff;
+	   	text-align: center;
+	   	color: white;
+}
+.box4{
+       background-color: hsl(90,30%,50%);
+        grid-area:box4;
+        padding: 1rem;
+        border: 3px solid hsl(180,50%,20%);
+        border-radius: 4px;
+        color:#fff;
+	   	text-align: center;
+	   	color: white;
+
+}
+.box5{
+        background-color: sandybrown;
+        grid-area:box5;
+	   	padding: 1rem;
+	   	border: 3px solid hsl(180,50%,20%);
+	   	border-radius: 4px;
+	   	color:#fff;
+	   	text-align: center;
+	   	color: white;
+}
+.box6{
+        background-color: darkturquoise;
+        grid-area:box6;
+	   	padding: 1rem;
+	   	border: 3px solid hsl(180,50%,20%);
+	   	border-radius: 4px;
+	   	color:#fff;
+	   	text-align: center;
+	   	color: white;
+}
+.box7{
+        background-color: darkturquoise;
+        grid-area:box7;
+	   	padding: 1rem;
+	   	border: 3px solid hsl(180,50%,20%);
+	   	border-radius: 4px;
+	   	color:#fff;
+	   	text-align: center;
+	   	color: white;
+}
+
+.footer{
+       background-color: plum;
+        grid-area:footer;
+	   	padding: 1rem;
+	   	border: 3px solid hsl(180,50%,20%);
+	   	border-radius: 4px;
+	   	color:#fff;
+	   	text-align: center;
+	   	color: white;
+}
+
+
+/*for tablet*/
+
+
+@media only screen and (max-width:1024px) and (min-width: 500px){
+  .container{
+         grid-template-columns: 1fr 1fr;
+         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+         grid-template-areas: "nav nav"
+                         "box1 box1"
+                         "box2 box3"
+                         "box4 box5"
+                         "box6 box6"
+                         "box7 box7"
+                         "footer footer";
+      
+         }
+}
+
+@media only screen and (max-width: 500px){
+  .container{
+         grid-template-columns: 1fr;
+         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+         grid-template-areas: "nav"
+                         "box1"
+                         "box2"
+                         "box3"
+                         "box4"
+                         "box5"
+                         "box6"
+                         "box7"
+                         "footer";
+      
+         }
+}
