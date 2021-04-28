@@ -1,0 +1,103 @@
+html,body{
+	margin: 0;
+	padding: 0;
+}
+.container{
+   position: relative;
+}
+
+
+
+.box{
+  width: 100px;
+  height: 100px;
+  border:3px solid hsl(200,60%,35%);
+}
+
+.box1{
+  position: relative;
+   background-color: palevioletred;
+   top: 5px;
+}
+
+
+.box2{
+  position: relative;
+  background-color: darkkhaki;
+  top: 8px;
+}
+
+
+.box3{
+  position: relative;
+   background-color: steelblue;
+   top: 11px;
+}
+
+
+/*for only the second figure*/
+.box1-1{
+   left: 5px;
+}
+
+
+.box1-2{
+  left: 107px;
+  top: 2px;
+}
+.box1-3{
+  top: 2px;
+  left: 209px;
+}
+/*for figure 3*/
+
+.box2-1{
+  position: relative;
+  background-color: palevioletred;
+   width: 16em;
+   margin: 5px;
+}
+
+
+
+.box2-2{
+  background-color: darkkhaki;
+  display: inline-block;
+  width: 7em;
+  top: 4px;
+  margin-left: 5px;
+}
+
+.box2-3{
+  background-color: steelblue;
+  display: inline-block;
+  position: relative;
+  width: 7em;
+  top: 0px;
+  left: 21px;
+}
+
+/*for figure 4*/
+
+
+.box3-1{
+  background-color: palevioletred;
+   margin: 5px;
+   }
+
+
+.box3-2{
+  background-color: darkkhaki;
+  top: 4px;
+  margin-left: 5px;
+}
+  
+
+.box3-3{
+  background-color: steelblue;
+  position: relative;
+  bottom:217px;
+  left: 116px;
+}
+
+
