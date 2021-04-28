@@ -1,0 +1,85 @@
+html,body{
+	margin: 0;
+	padding: 0;
+}
+.container{
+   position: absolute;
+}
+
+
+.box{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border:3px solid hsl(200,60%,35%);
+}
+
+.box1{
+   background-color: palevioletred;
+   top: 5px;
+
+}
+
+
+.box2{
+  background-color: darkkhaki;
+  top: 115px;
+
+}
+
+
+.box3{
+   background-color: steelblue;
+   top: 225px;
+}
+
+
+
+/*for only the second figure*/
+.box1-1{
+   left: 5px;
+}
+
+.box2-2{
+  top: 107px;
+  left: 107px;
+}
+.box3-3{
+  top: 209px;
+  left: 209px;
+}
+
+
+/*for figure 3*/
+
+
+.box_large{
+   width: 16em;
+   margin: 5px;
+}
+
+
+
+.box_m{
+  width: 7em;
+  top: 122px;
+  margin-left: 5px;
+}
+
+.box_n{
+  width: 7em;
+   left: 148px;
+   top: 122px;
+}
+
+
+/*for figure 4*/
+
+.box6{
+  left: 110px;
+  top: 5px;
+}
+
+
+
+
