@@ -1,0 +1,36 @@
+body{
+	background-color: #561d41;
+	font-family: cursive;
+	color: #dedede;
+	font-size: 25px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+.am{
+    border: 0.001em solid #c4a0ba;
+}
+
+
+a{
+	text-decoration: none;
+	color: #561d41;
+}
+
+a:hover{
+   color: #904a80;
+}
+
+.main{
+	display: flex;
+	flex-direction: column;
+	background-color: #dedede;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-top: 10%;
+}
+
+.m1,.m2{
+	border-bottom: 2px solid #904a80;
+}
